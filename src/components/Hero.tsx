@@ -3,7 +3,7 @@ import HeroImg from "../assets/illustration-hero.svg";
 const Hero = () => {
   return (
     <>
-      <div className="w-full grid grid-cols-1 md:grid-cols-2">
+      <div className="w-full grid grid-cols-1 md:grid-cols-2 md:mb-8">
         <div className="xl:ml-36 md:ml-24 flex flex-col justify-center">
           <h1 className="text-5xl capitalize font-medium">
             A Simple Bookmark Manager
