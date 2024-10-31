@@ -8,7 +8,7 @@ const Navbar = () => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
-    <div className="flex justify-between w-full md:max-w-7xl md:mx-auto md:mt-4 z-10">
+    <div className="flex justify-between xl:mx-36 md:mx-24 md:mt-4 z-10">
       <button
         onClick={toggleMenu}
         className="md:hidden fixed top-8 left-8 z-40"
@@ -59,7 +59,7 @@ const Navbar = () => {
             <a href="#">contact</a>
           </li>
           <li className="inline">
-            <button className="bg-soft-red text-white px-8 py-3 uppercase rounded">
+            <button className="bg-soft-red text-white px-8 py-3 uppercase rounded shadow-md">
               Login
             </button>
           </li>

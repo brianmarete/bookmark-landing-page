@@ -10,8 +10,8 @@ function App() {
   return (
     <>
       <Navbar />
-      {/* <Hero />
-      <Features />
+      <Hero />
+      {/* <Features />
       <Download />
       <FAQ />
       <Newsletter />
