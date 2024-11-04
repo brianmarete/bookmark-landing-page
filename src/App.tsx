@@ -1,10 +1,10 @@
 import Download from "./components/Download";
 import FAQ from "./components/FAQ";
 import Features from "./components/Features";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-// import Newsletter from "./components/Newsletter";
+import Newsletter from "./components/Newsletter";
 
 function App() {
   return (
@@ -14,8 +14,8 @@ function App() {
       <Features />
       <Download />
       <FAQ />
-      {/* <Newsletter />
-      <Footer /> */}
+      <Newsletter />
+      <Footer />
     </>
   );
 }
