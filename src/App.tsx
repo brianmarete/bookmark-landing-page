@@ -1,4 +1,4 @@
-// import Download from "./components/Download";
+import Download from "./components/Download";
 // import FAQ from "./components/FAQ";
 import Features from "./components/Features";
 // import Footer from "./components/Footer";
@@ -12,8 +12,8 @@ function App() {
       <Navbar />
       <Hero />
       <Features />
-      {/* <Download />
-      <FAQ />
+      <Download />
+      {/*<FAQ />
       <Newsletter />
       <Footer /> */}
     </>

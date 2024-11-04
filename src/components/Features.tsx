@@ -14,7 +14,7 @@ const Features = () => {
           them on the go.
         </p>
       </div>
-      <div className="w-full max-w-4xl mx-auto p-4 md:mb-32">
+      <div className="w-full max-w-4xl mx-auto p-4 md:mb-48">
         <Tabs defaultValue="bookmarking" className="w-full">
           <TabsList className="flex flex-col sm:flex-row h-auto bg-inherit border-b border-gray-200 rounded-none p-0">
             <TabsTrigger
