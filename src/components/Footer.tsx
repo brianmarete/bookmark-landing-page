@@ -1,6 +1,5 @@
 import Logo from "../assets/logo-bookmark-white.svg";
-import FacebookLogo from "../assets/icon-facebook.svg";
-import TwitterLogo from "../assets/icon-twitter.svg";
+import { ImFacebook2, ImTwitter } from "react-icons/im";
 
 const Footer = () => {
   return (
@@ -10,23 +9,25 @@ const Footer = () => {
           <img src={Logo} alt="" className="md:mr-14 text-2xl md:inline" />
           <ul className="inline-block space-x-12 uppercase text-xs tracking-widest  text-grayish-blue">
             <li className="inline">
-              <a href="#">features</a>
+              <a href="#" className="hover:text-soft-red">
+                features
+              </a>
             </li>
             <li className="inline">
-              <a href="#">pricing</a>
+              <a href="#" className="hover:text-soft-red">
+                pricing
+              </a>
             </li>
             <li className="inline">
-              <a href="#">contact</a>
+              <a href="#" className="hover:text-soft-red">
+                contact
+              </a>
             </li>
           </ul>
         </div>
         <div className="py-6">
-          <img
-            src={FacebookLogo}
-            alt=""
-            className="md:mr-14 text-2xl md:inline"
-          />
-          <img src={TwitterLogo} alt="" className="text-2xl md:inline" />
+          <ImFacebook2 className="md:mr-14 text-2xl text-white md:inline hover:text-soft-red" />
+          <ImTwitter className="text-2xl  text-white md:inline hover:text-soft-red" />
         </div>
       </div>
     </div>

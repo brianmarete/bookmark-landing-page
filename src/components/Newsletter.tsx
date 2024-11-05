@@ -15,7 +15,7 @@ const Newsletter = () => {
               className="w-full h-12 rounded-md px-4"
               placeholder="Enter your email address"
             />
-            <button className="bg-soft-red text-white px-8 py-3 rounded text-sm shadow-md">
+            <button className="bg-soft-red border-soft-red border-2 text-white px-8 py-3 rounded text-sm shadow-md hover:bg-white hover:text-soft-red ">
               Contact Us
             </button>
           </form>

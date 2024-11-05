@@ -19,13 +19,15 @@ const FAQ = () => {
         <div className="my-8 w-full">
           <Accordion type="single" collapsible className="w-full">
             <AccordionItem value="item-1">
-              <AccordionTrigger>What is Bookmark?</AccordionTrigger>
+              <AccordionTrigger className="hover:text-soft-red hover:no-underline">
+                What is Bookmark?
+              </AccordionTrigger>
               <AccordionContent>
                 Bookmark is an internet bookmarking and bookmark manager.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
-              <AccordionTrigger>
+              <AccordionTrigger className="hover:text-soft-red hover:no-underline">
                 How can I request a new browser?
               </AccordionTrigger>
               <AccordionContent>
@@ -33,13 +35,15 @@ const FAQ = () => {
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
-              <AccordionTrigger>Is there a mobile app?</AccordionTrigger>
+              <AccordionTrigger className="hover:text-soft-red hover:no-underline">
+                Is there a mobile app?
+              </AccordionTrigger>
               <AccordionContent>
                 Yes. Web browsers are supported on iOS and Android.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4">
-              <AccordionTrigger>
+              <AccordionTrigger className="hover:text-soft-red hover:no-underline">
                 What about other Chromium browsers?
               </AccordionTrigger>
               <AccordionContent>

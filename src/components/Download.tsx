@@ -41,7 +41,7 @@ const Card = ({
         <small className="text-grayish-blue">Minimum version {minVer}</small>
       </div>
       <div className="bg-dots-pattern h-2 w-full bg-repeat-x bg-center"></div>
-      <button className="bg-soft-blue text-white px-8 py-3 rounded text-sm shadow-md mx-4">
+      <button className="bg-soft-blue text-white px-8 py-3 rounded text-sm shadow-md mx-4 border-2 border-soft-blue hover:bg-white hover:text-soft-blue">
         Add & Install Extension
       </button>
     </div>

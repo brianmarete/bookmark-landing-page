@@ -19,19 +19,19 @@ const Features = () => {
           <TabsList className="flex flex-col sm:flex-row h-auto bg-inherit border-b border-gray-200 rounded-none p-0">
             <TabsTrigger
               value="bookmarking"
-              className="flex-1 data-[state=active]:border-b-4 data-[state=active]:border-soft-red data-[state=active]:shadow-none rounded-none pb-4 text-lg"
+              className="flex-1 data-[state=active]:border-b-4 data-[state=active]:border-soft-red data-[state=active]:shadow-none rounded-none pb-4 text-lg hover:text-soft-red"
             >
               Simple Bookmarking
             </TabsTrigger>
             <TabsTrigger
               value="searching"
-              className="flex-1 data-[state=active]:border-b-4 data-[state=active]:border-soft-red data-[state=active]:shadow-none rounded-none pb-4 text-lg"
+              className="flex-1 data-[state=active]:border-b-4 data-[state=active]:border-soft-red data-[state=active]:shadow-none rounded-none pb-4 text-lg hover:text-soft-red"
             >
               Speedy Searching
             </TabsTrigger>
             <TabsTrigger
               value="sharing"
-              className="flex-1 data-[state=active]:border-b-4 data-[state=active]:border-soft-red data-[state=active]:shadow-none rounded-none pb-4 text-lg"
+              className="flex-1 data-[state=active]:border-b-4 data-[state=active]:border-soft-red data-[state=active]:shadow-none rounded-none pb-4 text-lg hover:text-soft-red"
             >
               Easy Sharing
             </TabsTrigger>

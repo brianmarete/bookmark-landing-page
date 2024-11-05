@@ -14,10 +14,10 @@ const Hero = () => {
             free.
           </p>
           <div className="font-medium space-x-3">
-            <button className="bg-soft-blue text-white px-8 py-3 rounded text-sm shadow-md">
+            <button className="bg-soft-blue text-white px-8 py-3 rounded text-sm shadow-md border-2 border-soft-blue hover:bg-white hover:text-soft-blue">
               Get it on Chrome
             </button>
-            <button className="bg-gray-100 text-very-dark-blue px-8 py-3 rounded text-sm shadow-md">
+            <button className="bg-gray-100 text-very-dark-blue px-8 py-3 rounded text-sm shadow-md border-2 border-gray-100 hover:border-very-dark-blue hover:bg-white">
               Get it on Firefox
             </button>
           </div>

@@ -50,16 +50,22 @@ const Navbar = () => {
       <nav className="hidden md:flex md:items-center">
         <ul className="leading-none space-x-12 uppercase text-sm tracking-widest">
           <li className="inline">
-            <a href="#">features</a>
+            <a href="#" className="hover:text-soft-red">
+              features
+            </a>
           </li>
           <li className="inline">
-            <a href="#">pricing</a>
+            <a href="#" className="hover:text-soft-red">
+              pricing
+            </a>
           </li>
           <li className="inline">
-            <a href="#">contact</a>
+            <a href="#" className="hover:text-soft-red">
+              contact
+            </a>
           </li>
           <li className="inline">
-            <button className="bg-soft-red text-white px-8 py-3 uppercase rounded shadow-md">
+            <button className="bg-soft-red border-soft-red border-2 text-white px-8 py-3 uppercase rounded shadow-md hover:bg-white hover:text-soft-red ">
               Login
             </button>
           </li>
