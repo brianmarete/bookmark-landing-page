@@ -1,4 +1,4 @@
-import Logo from "../assets/logo-bookmark-white.svg";
+import Logo from "../assets/logo-bookmark-white-footer.svg";
 import { ImFacebook2, ImTwitter } from "react-icons/im";
 
 const Footer = () => {
