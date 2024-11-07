@@ -14,8 +14,9 @@ const Features = () => {
           them on the go.
         </p>
       </div>
-      <div className="w-full max-w-4xl mx-auto p-4 md:mb-48">
-        <Tabs defaultValue="bookmarking" className="w-full">
+      <div className="w-full p-4 md:pb-48 relative overflow-y-visible overflow-x-hidden">
+        <div className="absolute left-0 bottom-52 h-1/4 w-3/4 rounded-r-full bg-soft-blue -z-10 md:-bottom-1 md:h-1/3 md:w-2/5 md:-translate-y-1/2 " />
+        <Tabs defaultValue="bookmarking" className="max-w-4xl mx-auto">
           <TabsList className="flex flex-col sm:flex-row h-auto bg-inherit border-b border-gray-200 rounded-none p-0">
             <TabsTrigger
               value="bookmarking"
@@ -45,7 +46,7 @@ const Features = () => {
                 <h3 className="text-2xl md:text-3xl font-medium text-center md:text-left">
                   Bookmark in one click
                 </h3>
-                <p className="text-grayish-blue text-base md:text-lg text-center md:text-left leading-6 mx-2 md:mx-0">
+                <p className="text-grayish-blue text-base md:text-lg text-center md:text-left leading-6 md:mx-0">
                   Organize your bookmarks however you like. Our simple
                   drag-and-drop interface gives you complete control over how
                   you manage your favourite sites.
@@ -65,7 +66,7 @@ const Features = () => {
                 <h3 className="text-2xl md:text-3xl font-medium text-center md:text-left">
                   Intelligent search
                 </h3>
-                <p className="text-grayish-blue text-base md:text-lg text-center md:text-left leading-6 mx-2 md:mx-0">
+                <p className="text-grayish-blue text-base md:text-lg text-center md:text-left leading-6 md:mx-0">
                   Our powerful search feature will help you find saved sites in
                   no time at all. No need to crawl through all of your
                   bookmarks.
@@ -85,7 +86,7 @@ const Features = () => {
                 <h3 className="text-2xl md:text-3xl font-medium text-center md:text-left">
                   Share your bookmarks
                 </h3>
-                <p className="text-grayish-blue text-base md:text-lg text-center md:text-left leading-6 mx-2 md:mx-0">
+                <p className="text-grayish-blue text-base md:text-lg text-center md:text-left leading-6 md:mx-0">
                   Easily share your bookmarks and collections with others.
                   Create a shareable link that you can send at the click of a
                   button.

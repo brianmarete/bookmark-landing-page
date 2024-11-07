@@ -3,8 +3,9 @@ import HeroImg from "../assets/illustration-hero.svg";
 const Hero = () => {
   return (
     <>
-      <div className="w-full grid grid-cols-1 md:grid-cols-2 md:mb-8">
-        <div className="xl:ml-36 md:ml-24 flex flex-col justify-center text-center md:text-left">
+      <div className="w-full grid grid-cols-1 md:grid-cols-2 md:mb-8 relative overflow-y-visible overflow-x-hidden">
+        <div className="bg-soft-blue absolute right-0 top-16 h-48 w-3/4 translate-x-1 rounded-l-full -z-10 md:top-2/3 md:h-1/2 md:w-3/5 md:-translate-y-1/2 md:translate-x-1/3 " />
+        <div className="xl:ml-36 md:ml-24 md:mb-12 flex flex-col justify-center text-center md:text-left">
           <h1 className="text-3xl md:text-5xl capitalize font-medium ">
             A Simple Bookmark Manager
           </h1>
