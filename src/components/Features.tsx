@@ -6,9 +6,9 @@ import FeaturesImg3 from "@/assets/illustration-features-tab-3.svg";
 const Features = () => {
   return (
     <>
-      <div className="flex flex-col items-center md:mt-4">
-        <h2 className="text-3xl font-medium my-3">Features</h2>
-        <p className="text-grayish-blue text-lg max-w-xl text-center my-3">
+      <div className="flex flex-col items-center mt-28 md:mt-4">
+        <h2 className="text-2xl md:text-3xl font-medium my-3">Features</h2>
+        <p className="text-grayish-blue text-base md:text-lg max-w-xl text-center my-3 mx-5">
           Our aim is to make it quick and easy for you to access your favorite
           websites. Your bookmarks sync between your devices so you can access
           them on the go.
@@ -37,54 +37,60 @@ const Features = () => {
             </TabsTrigger>
           </TabsList>
           <TabsContent value="bookmarking" className="mt-24">
-            <div className="grid md:grid-cols-2 md:gap-36 items-center">
+            <div className="grid md:grid-cols-2 gap-16 md:gap-36 items-center">
               <div>
                 <img src={FeaturesImg1} />
               </div>
-              <div className="space-y-4">
-                <h3 className="text-3xl font-medium">Bookmark in one click</h3>
-                <p className="text-grayish-blue text-lg">
+              <div className="space-y-4 ">
+                <h3 className="text-2xl md:text-3xl font-medium text-center md:text-left">
+                  Bookmark in one click
+                </h3>
+                <p className="text-grayish-blue text-base md:text-lg text-center md:text-left leading-6 mx-2 md:mx-0">
                   Organize your bookmarks however you like. Our simple
                   drag-and-drop interface gives you complete control over how
                   you manage your favourite sites.
                 </p>
-                <button className="bg-soft-blue text-white px-6 py-2 rounded-md text-sm font-medium">
+                <button className="hidden md:block bg-soft-blue text-white px-6 py-2 rounded-md text-sm font-medium">
                   More Info
                 </button>
               </div>
             </div>
           </TabsContent>
           <TabsContent value="searching" className="mt-24">
-            <div className="grid md:grid-cols-2 md:gap-36 items-center">
+            <div className="grid md:grid-cols-2 gap-16 md:gap-36 items-center">
               <div>
                 <img src={FeaturesImg2} />
               </div>
               <div className="space-y-4">
-                <h3 className="text-3xl font-medium">Intelligent search</h3>
-                <p className="text-grayish-blue text-lg">
+                <h3 className="text-2xl md:text-3xl font-medium text-center md:text-left">
+                  Intelligent search
+                </h3>
+                <p className="text-grayish-blue text-base md:text-lg text-center md:text-left leading-6 mx-2 md:mx-0">
                   Our powerful search feature will help you find saved sites in
                   no time at all. No need to crawl through all of your
                   bookmarks.
                 </p>
-                <button className="bg-soft-blue text-white px-6 py-2 rounded-md text-sm font-medium">
+                <button className="hidden md:block bg-soft-blue text-white px-6 py-2 rounded-md text-sm font-medium">
                   More Info
                 </button>
               </div>
             </div>
           </TabsContent>
           <TabsContent value="sharing" className="mt-24">
-            <div className="grid md:grid-cols-2 md:gap-36 items-center">
+            <div className="grid md:grid-cols-2 gap-16 md:gap-36 items-center">
               <div>
                 <img src={FeaturesImg3} />
               </div>
               <div className="space-y-4">
-                <h3 className="text-3xl font-medium">Share your bookmarks</h3>
-                <p className="text-grayish-blue text-lg">
+                <h3 className="text-2xl md:text-3xl font-medium text-center md:text-left">
+                  Share your bookmarks
+                </h3>
+                <p className="text-grayish-blue text-base md:text-lg text-center md:text-left leading-6 mx-2 md:mx-0">
                   Easily share your bookmarks and collections with others.
                   Create a shareable link that you can send at the click of a
                   button.
                 </p>
-                <button className="bg-soft-blue text-white px-6 py-2 rounded-md text-sm font-medium">
+                <button className="hidden md:block bg-soft-blue text-white px-6 py-2 rounded-md text-sm font-medium">
                   More Info
                 </button>
               </div>

@@ -9,15 +9,15 @@ const FAQ = () => {
   return (
     <>
       <div className="flex flex-col items-center md:max-w-xl md:mx-auto mb-32">
-        <h2 className="text-3xl font-medium my-3">
+        <h2 className="text-2xl md:text-3xl text-center font-medium my-3 mx-8">
           Frequently Asked Questions
         </h2>
-        <p className="text-grayish-blue text-lg max-w-xl text-center my-3">
+        <p className="text-grayish-blue text-base md:text-lg max-w-xl text-center my-3 mx-6">
           Here are some of our FAQs. If you have any other questions you'd like
           answered please feel free to email us.
         </p>
-        <div className="my-8 w-full">
-          <Accordion type="single" collapsible className="w-full">
+        <div className="my-8 w-10/12  md:w-full">
+          <Accordion type="single" collapsible>
             <AccordionItem value="item-1">
               <AccordionTrigger className="hover:text-soft-red hover:no-underline">
                 What is Bookmark?

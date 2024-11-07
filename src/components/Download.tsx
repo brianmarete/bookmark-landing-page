@@ -50,9 +50,11 @@ const Card = ({
 const Download = () => {
   return (
     <>
-      <div className="flex flex-col items-center">
-        <h2 className="text-3xl font-medium my-3">Download the extension</h2>
-        <p className="text-grayish-blue text-lg max-w-xl text-center my-3">
+      <div className="flex flex-col items-center mt-24 md:mt-0">
+        <h2 className="text-2xl md:text-3xl font-medium my-3">
+          Download the extension
+        </h2>
+        <p className="text-grayish-blue text-base md:text-lg text-center max-w-xl my-3 mx-6">
           We've got more browsers in the pipeline. Please do let us know if
           you've got a favorite you'd like us to prioritize.
         </p>
